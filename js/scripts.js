@@ -67,12 +67,16 @@ $(document).ready(function() {
   $("#new-todo-form").submit(function(event) {
     event.preventDefault();
     var inputtedTask = $("#new-task").val();
-    var inputtedDueDate =$("#new-due-date").val();
-    var inputtedPriority =$("#new-priority").val();
+    var inputtedDueDate = $("#new-due-date").val();
+    var inputtedPriority = $("#new-priority").val();
     var todo = new Todo(inputtedTask, inputtedDueDate, inputtedPriority);
     todoList.addTodo(todo);
+    var info = todo.todoInfo();
     for (i = 0; i < todoList.todos.length; i++) {
-      $("#results").append("<li>" + todoList.todos[i].task + "</li>");
+      $("#results").append("<li>" + todoList.todos[i].task + "</li>" + info );
     }
+  });
+  $("ul#results").click(function(event) {
+    $("ul#results").children().append();
   });
 });
