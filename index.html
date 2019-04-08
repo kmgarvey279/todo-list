@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>To Do List</title>
+  </head>
+  <body>
+    <h1>To Do List</h1>
+    <h4>Add a new to todo item:</h4>
+    <form id="new-todo-form">
+      <label for="task">Task</label>
+      <input type="text" id="new-task">
+      <label for="dueDate">Due Date/Time</label>
+      <input type="text" id="new-due-date">
+      <label for="priority">Priority (ex: low, medium, high)</label>
+      <input type="text" id="new-priority">
+      <button type="submit">Add New Task</button>
+    </form>
+    <h4>My Todos:</h4>
+    <ul id="results">
+    </ul>
+  </body>
