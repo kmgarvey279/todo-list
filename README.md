@@ -2,7 +2,7 @@
 
 #### _This program allows the user to add a new task which will populate a list, and then check off, change, and delete items from the list, 04.08.2019_
 
-#### By _**Kevin Garvey** _
+#### By _**Kevin Garvey**_
 
 ## Description
 
