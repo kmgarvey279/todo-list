@@ -14,7 +14,7 @@ Output: Todo {task: "walk the dog", dueDate: "by the end of day", priority: "hig
 Input: "newTodo.todoInfo();
 Output: "Walk the dog, due: by the end of the day, priority: high."  
 3) Store entered todos and their properties in a 'Todo List' object.
-4) Assign each todo a unique id number._
+4) Assign each todo a unique id number.
 
 
 ## Setup/Installation Requirements
