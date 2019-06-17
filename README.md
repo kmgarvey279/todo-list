@@ -14,18 +14,14 @@ Output: Todo {task: "walk the dog", dueDate: "by the end of day", priority: "hig
 Input: "newTodo.todoInfo();
 Output: "Walk the dog, due: by the end of the day, priority: high."  
 3) Store entered todos and their properties in a 'Todo List' object.
-4) Assign each todo a unique id number.
-_
+4) Assign each todo a unique id number._
 
 
 ## Setup/Installation Requirements
 
 * _Clone from the following repository: https://github.com/kmgarvey279/Epicodus-track-selector_
-* __
 
 ## Known Bugs
-
-__
 
 ## Support and contact details
 
